@@ -201,9 +201,26 @@ print(arr)
 
 # 29. numpy.ones() :  Generate a 2x4 array filled with ones
 import numpy as np
-
 arr = np.ones((2, 4))
 print(arr)
+
+# 30. numpy.repeat() : Repeats each element three times
+import numpy as np
+# Create a 2D array
+arr = np.array([[1, 2], [3, 4]])
+# Repeat each element three times
+repeated_arr = np.repeat(arr, 3)
+print(repeated_arr)
+
+# 31. numpy.tile() : Tiles the array three times
+import numpy as np
+# Create a 2D array
+arr = np.array([[1, 2], [3, 4]])
+# Tile the array three times
+tiled_arr = np.tile(arr, 3)
+print(tiled_arr)
+
+
 
 
 
