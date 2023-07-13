@@ -184,6 +184,31 @@ print(sum_axis_0)
 sum_axis_1 = np.sum(arr, axis=1)
 print(sum_axis_1)
 
+# 26. numpy.arange() :  Generate an array with values from 0 to 9
+import numpy as np
+arr = np.arange(10)
+print(arr)
+
+# 27. numpy.linspace() :  Generate an array with 5 evenly spaced values from 0 to 10 (inclusive)
+import numpy as np
+arr = np.linspace(0, 10, num=5)
+print(arr)
+
+# 28. numpy.zeros() :  Generate a 3x3 array filled with zeros
+import numpy as np
+arr = np.zeros((3, 3))
+print(arr)
+
+# 29. numpy.ones() :  Generate a 2x4 array filled with ones
+import numpy as np
+
+arr = np.ones((2, 4))
+print(arr)
+
+
+
+
+
 
 
 
