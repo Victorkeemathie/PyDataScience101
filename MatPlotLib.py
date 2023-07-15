@@ -1,6 +1,23 @@
 # Matplotlib is a widely used plotting library in Python that provides a comprehensive set of tools for creating various types of plots and visualizations. 
 
 # 1. Line Plot
+
+# Different parameters for a Lineplot
+
+# plt.plot(x, y, color='red')
+# plt.plot(x, y, linestyle='--')
+# plt.plot(x, y, linewidth=2)
+# plt.plot(x, y, marker='o')
+# plt.plot(x, y, marker='o', markersize=5)
+# plt.plot(x, y, label='data')
+# plt.legend()
+# plt.title('My Plot')
+# plt.xlabel('X-axis')
+# plt.ylabel('Y-axis')
+# plt.xlim(0, 10)
+# plt.ylim(-5, 5)
+# plt.grid(True)
+
 import matplotlib.pyplot as plt
 from matplotlib import style
 #style.use('ggplot')
@@ -185,3 +202,80 @@ plt.ylabel('Value')
 plt.title('Box Plot')
 plt.show()
 
+# In matplotlib.pyplot, there are various markers available that you can use to indicate individual data points in your plots. 
+# Here are some commonly used markers:
+
+# '.' - Point marker
+# 'o' - Circle marker
+# 'v' - Downward-pointing triangle marker
+# '^' - Upward-pointing triangle marker
+# '<' - Left-pointing triangle marker
+# '>' - Right-pointing triangle marker
+# 's' - Square marker
+# 'p' - Pentagon marker
+# '*' - Star marker
+# '+' - Plus marker
+# 'x' - Cross marker
+# 'D' - Diamond marker
+# 'd' - Thin diamond marker
+# 'h' - Hexagon1 marker
+# 'H' - Hexagon2 marker
+# '|' - Vertical line marker
+# '_' - Horizontal line marker
+
+# In matplotlib.pyplot, there are various linestyles available that you can use to specify the style of lines in your plots. 
+# Here are some commonly used linestyles:
+
+# '-' - Solid line
+# '--' - Dashed line
+# '-.' - Dash-dot line
+# ':' - Dotted line
+# 'None' or ' ': No line (useful when you only want markers'
+
+
+# In matplotlib.pyplot, you can specify different colors using color abbreviations or predefined color names. 
+# Here are some commonly used color abbreviations
+# 'b' - Blue
+# 'g' - Green
+# 'r' - Red
+# 'c' - Cyan
+# 'm' - Magenta
+# 'y' - Yellow
+# 'k' - Black
+# 'w' - White
+# 'navy' - Navy blue
+# 'lime' - Lime green
+# 'maroon' - Maroon
+# 'teal' - Teal
+# 'purple' - Purple
+# 'gold' - Gold
+# 'silver' - Silver
+
+# Here's a list of 15 different styles that can be used with matplotlib using the style.use() function:
+# 'bmh': Bayesian Methods for Hackers style
+# 'ggplot': The style used by the popular R package ggplot2
+# 'seaborn': The default style of the seaborn library
+# 'fivethirtyeight': The visual style of the website FiveThirtyEight
+# 'dark_background': A dark theme with dark background and light-colored lines and markers
+# 'grayscale': A grayscale style with black lines and markers on a white background
+# 'classic': The classic matplotlib style
+# 'Solarize_Light2': A light-colored style similar to the Solarized theme
+# 'fast': A minimalistic style optimized for fast rendering
+# 'tableau-colorblind10': A style using Tableau's color palette for colorblindness
+# 'seaborn-darkgrid': A dark grid-based style from seaborn
+# 'seaborn-whitegrid': A white grid-based style from seaborn
+# 'seaborn-ticks': A style with ticks from seaborn
+# 'seaborn-poster': A style optimized for creating poster-sized plots with seaborn
+# 'classic + bmh': A combination of the classic and Bayesian Methods for Hackers styles
+
+# xlim: This parameter is used to set the limits of the x-axis. It takes a tuple (xmin, xmax)
+# plt.xlim(0, 10)  # Set the x-axis limits from 0 to 10
+
+# ylim is used to set the limits of the y-axis
+# plt.ylim(-5, 5)  # Set the y-axis limits from -5 to 5
+
+# xticks: This parameter is used to control the locations of the tick marks on the x-axis
+# plt.xticks([0, 1, 2, 3, 4])  # Set tick marks at specific x-axis positions
+
+# yticks controls the locations of the tick marks on the y-axis
+# plt.yticks([-2, -1, 0, 1, 2])  # Set tick marks at specific y-axis positions
